@@ -264,32 +264,24 @@ hr {
 
 /* Sections */
 
-#featured,
+
 #about,
-#blog,
-#contact,
-#work,
-#about-section,
-#map-section,
-#services,
-#resume,
-#process {
-  padding-bottom: 80px;
+#services
+ {
+  padding-bottom: 0;
 }
 
 #about {
-  margin-bottom: 80px;
-  padding-bottom: 80px;
+  margin-bottom: -20px;
+  padding-bottom: 0px;
 }
 
 
-#blog,
-#work,
-#contact,
-#services,
-#resume,
-#process {
-  padding-top: 80px;
+
+#services
+ {
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .heading {
