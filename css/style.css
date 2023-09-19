@@ -7,7 +7,7 @@
     6.BANNER
     7.ABOUT 
     8.RESUME
-    9.SERVICES
+    9.SKILLS
     10.WORKS
     11.CONTACT
     12.FOOTER
@@ -271,7 +271,7 @@ hr {
 #work,
 #about-section,
 #map-section,
-#services,
+#skills,
 #resume,
 #process {
   padding-bottom: 80px;
@@ -286,7 +286,7 @@ hr {
 #blog,
 #work,
 #contact,
-#services,
+#skills,
 #resume,
 #process {
   padding-top: 80px;
@@ -461,79 +461,19 @@ hr {
   }
 }
 
-.header-page h2:before, 
-.header-page h2:before {
-    content: '';
-    position: absolute;
-    width: 30px;
-    height: 1px;
-    left: calc(50% - 45px);
-    bottom: 107px;
-    background-color:rgb(231, 68, 68);
-}
-
-@media (max-width: 991px) {
-  .header-page h2:before,
-  .header-page h2:before {
-    content: '';
-    position: absolute;
-    width: 30px;
-    height: 1px;
-    left: calc(50% - 45px);
-    bottom: 143px;
-    background-color:rgb(231, 68, 68);
-  }
-}
-
-.header-page h2:after, 
-.header-page h2:after {
-    content: '';
-    position: absolute;
-    width: 30px;
-    height: 1px;
-    left: calc(50% + 15px);
-    bottom: 107px;
-    background-color:rgb(231, 68, 68);
-}
-
-@media (max-width: 991px) {
-  .header-page h2:after,
-  .header-page h2:after {
-    content: '';
-    position: absolute;
-    width: 30px;
-    height: 1px;
-    left: calc(50% + 15px);
-    bottom: 143px;
-    background-color: rgb(231, 68, 68);
-  }
-}
-
-.header-page-about span:after {
-  content: '';
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  left: calc(50% - 7px);
-  bottom: 13px;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  border: 3px solid rgb(231, 68, 68);
-}
-
 
 .heading-meta-sub {
   margin-bottom: 15px;
   display: block;
   font-size: 80px;
   text-transform: uppercase;
-  color: #99999908;
+  color: #fd020208;
   font-weight: 700;
   letter-spacing: 5px;
   position: absolute;
   text-align: center;
   z-index: 0;
-  top: -42px;
+  top: -170px;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -552,7 +492,7 @@ hr {
     position: absolute;
     text-align: center;
     z-index: 0;
-    top: -40px;
+    top: -160px;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -1516,10 +1456,10 @@ header .navbar-brand .social-icon a {
 =============================*/
 
 /*===========================
-        9.SERVICES
+        9.SKILLS
 =============================*/
 
-#services .service {
+#skills  {
   text-align: left;
   width: 100%;
   float: left;
@@ -1529,7 +1469,7 @@ header .navbar-brand .social-icon a {
   border: 1px solid #e1b7830f;
 }
 
-#services .service:hover {
+#skills .skills:hover {
   text-align: left;
   width: 100%;
   float: left;
@@ -1542,7 +1482,7 @@ header .navbar-brand .social-icon a {
   color: #000;
 }
 
-#services .service .icon {
+#skills .service {
   position: absolute;
   top: 0;
   left: 0;
@@ -1557,7 +1497,7 @@ header .navbar-brand .social-icon a {
   border-radius: 2px;
 }
 
-#services .service .icon i {
+#skills .service  {
   display: table-cell;
   vertical-align: middle;
   color:rgb(231, 68, 68);
@@ -1566,23 +1506,23 @@ header .navbar-brand .social-icon a {
 }
 
 @media screen and (max-width: 1200px) {
-  #services .service .icon i {
+  #skills .service {
     font-size: 40px;
   }
 }
 
-#services .service .text {
+#skills .service .text {
   padding-left: 120px;
   width: 100%;
 }
 
-#services .service .text h2,
-#services .service .text h3 {
+#skills .service .text h2,
+#skills .service .text h3 {
   margin: 0;
   padding: 0;
 }
 
-#services .service .text h3 {
+#skills .service .text h3 {
   font-weight: 500;
   margin-bottom: 20px;
   color:rgb(231, 68, 68);
@@ -1591,28 +1531,28 @@ header .navbar-brand .social-icon a {
   text-transform: uppercase;
 }
 
-#services .service.service-sm .text {
+#skills .service.service-sm .text {
   margin-top: 30px;
 }
 
-#services .service.service-sm .icon i {
+#skills .service.service-sm {
   color:rgb(231, 68, 68);
   font-size: 40px;
 }
 
 @media screen and (max-width: 1200px) {
-  #services .service.service-sm .icon i {
+  #skills .service.service-sm {
     font-size: 28px;
   }
 }
 
-#services .service-lg .text h2,
-#services .service-lg .text h3 {
+#skills .service-lg .text h2,
+#skills .service-lg .text h3 {
   margin: 0;
   padding: 0;
 }
 
-#services .service-lg .text h3 {
+#skills .service-lg .text h3 {
   font-weight: 500;
   margin-bottom: 20px;
   color: rgba(0, 0, 0, 0.8);
@@ -1621,18 +1561,22 @@ header .navbar-brand .social-icon a {
   text-transform: uppercase;
 }
 
-#services .service .box-num {
+#skills .service .box-num {
   position: absolute;
   top: 60%;
   transform: translateY(-50%);
   left: 32px;
 }
 
-#services .service .box-num h2 {
+#skills .service .box-num h2 {
   font-weight: 700;
   color: #afafaf12;
 }
 
+.progress-bar {
+  color:white;
+  font-size: 14px;
+}
 
 /*===========================
         10.COUNTERS

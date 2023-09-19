@@ -7,7 +7,7 @@
     6.BANNER
     7.ABOUT 
     8.RESUME
-    9.SERVICES
+    9.SKILLS
     10.WORKS
     11.CONTACT
     12.FOOTER
@@ -266,7 +266,7 @@ hr {
 
 
 #about,
-#services
+#skills
  {
   padding-bottom: 0;
 }
@@ -278,7 +278,7 @@ hr {
 
 
 
-#services
+#skills
  {
   padding-top: 0;
   margin-top: 0;
@@ -429,7 +429,7 @@ hr {
 
 .header-page span:after {
   content: '';
-  position: absolute;
+  position: relative;
   width: 14px;
   height: 14px;
   left: calc(50% - 7px);
@@ -1508,10 +1508,10 @@ header .navbar-brand .social-icon a {
 =============================*/
 
 /*===========================
-        9.SERVICES
+        9.SKILLS
 =============================*/
 
-#services .service {
+#skills .service {
   text-align: left;
   width: 100%;
   float: left;
@@ -1521,7 +1521,7 @@ header .navbar-brand .social-icon a {
   border: 1px solid #e1b7830f;
 }
 
-#services .service:hover {
+#skills .service:hover {
   text-align: left;
   width: 100%;
   float: left;
@@ -1534,7 +1534,7 @@ header .navbar-brand .social-icon a {
   color: #000;
 }
 
-#services .service .icon {
+#skills .service .icon {
   position: absolute;
   top: 0;
   left: 0;
@@ -1549,7 +1549,7 @@ header .navbar-brand .social-icon a {
   border-radius: 2px;
 }
 
-#services .service .icon i {
+#skills .service .icon i {
   display: table-cell;
   vertical-align: middle;
   color:rgb(231, 68, 68);
@@ -1558,23 +1558,23 @@ header .navbar-brand .social-icon a {
 }
 
 @media screen and (max-width: 1200px) {
-  #services .service .icon i {
+  #skills .service .icon i {
     font-size: 40px;
   }
 }
 
-#services .service .text {
+#skills .service .text {
   padding-left: 120px;
   width: 100%;
 }
 
-#services .service .text h2,
-#services .service .text h3 {
+#skills .service .text h2,
+#skills .service .text h3 {
   margin: 0;
   padding: 0;
 }
 
-#services .service .text h3 {
+#skills .service .text h3 {
   font-weight: 500;
   margin-bottom: 20px;
   color:rgb(231, 68, 68);
@@ -1583,28 +1583,28 @@ header .navbar-brand .social-icon a {
   text-transform: uppercase;
 }
 
-#services .service.service-sm .text {
+#skills .service.service-sm .text {
   margin-top: 30px;
 }
 
-#services .service.service-sm .icon i {
+#skills .service.service-sm .icon i {
   color:rgb(231, 68, 68);
   font-size: 40px;
 }
 
 @media screen and (max-width: 1200px) {
-  #services .service.service-sm .icon i {
+  #skills .service.service-sm .icon i {
     font-size: 28px;
   }
 }
 
-#services .service-lg .text h2,
-#services .service-lg .text h3 {
+#skills .service-lg .text h2,
+#skills .service-lg .text h3 {
   margin: 0;
   padding: 0;
 }
 
-#services .service-lg .text h3 {
+#skills .service-lg .text h3 {
   font-weight: 500;
   margin-bottom: 20px;
   color: rgba(0, 0, 0, 0.8);
@@ -1613,14 +1613,14 @@ header .navbar-brand .social-icon a {
   text-transform: uppercase;
 }
 
-#services .service .box-num {
+#skills .service .box-num {
   position: absolute;
   top: 60%;
   transform: translateY(-50%);
   left: 32px;
 }
 
-#services .service .box-num h2 {
+#skills .service .box-num h2 {
   font-weight: 700;
   color: #afafaf12;
 }
